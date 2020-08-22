@@ -22,7 +22,6 @@
             <i class="fab fa-diaspora"></i>
             <a href="#">Jaewon</a>
         </div>
-        <div class="navbar__menu">
             <ul class="navbar__menu">
                 <li class="navbar__menu__item" data-link=".home">Home</li>
                 <li class="navbar__menu__item" data-link="#about">About</li>
@@ -30,17 +29,19 @@
                 <li class="navbar__menu__item" data-link="#work">My work</li>
                 <li class="navbar__menu__item" data-link="#contact">Contact</li>
             </ul>
-        </div>
         <button class="navbar__toggle-btn">
             <i class="fas fa-bars"></i>
         </button>
     </nav>    
     <!-- Home -->
     <section class="home">
-        <img class="home__Avatar" src="./images/Avatar.jpg" alt="Jaewon's profile photo">
-        <h2 class="home__title">안녕하세요 <br />Front-end & Blockchain 개발자를 꿈꾸는</h2>
-        <h1 class="home__description">OOO입니다</h1>
-        <button class="home__contact">Contact Me</button>
+        <div class="home__container">
+            <img class="home__Avatar" src="./images/Avatar.jpg" alt="Jaewon's profile photo">
+            <h2 class="home__title">안녕하세요 <br />Front-end & Blockchain 개발자를 꿈꾸는</h2>
+            <h1 class="home__description">OOO입니다</h1>
+            <button class="home__contact">Contact Me</button>
+        </div>
+        
     </section>
 
     <!-- About Me -->
@@ -212,5 +213,9 @@
             2020 Jaewon's - All right reserved
         </p>
     </section>
+
+    <button class="arrow-up">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 </body>
 </html>
